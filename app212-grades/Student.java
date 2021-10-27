@@ -67,7 +67,16 @@ public class Student
      */
     public void awardTestMarks()
     {
-        
+        int value = 75;
+        for(Module module : course.modules)
+        {
+            ModuleMark mark = new ModuleMark(module);
+            mark.setMark(value);
+            
+            value = value - 10;
+            
+            marks.add(mark);
+        }
     }
     
     /**
@@ -104,9 +113,10 @@ public class Student
     
     private void printModules()
     {
-        for(ModuleMark moduleMark: marks)
+        for(ModuleMark mark: marks)
         {
-           moduleMark.print(); 
+           mark.print();
+           System.out.println("\t" + course.convertToGrade(mark.getValue()));
         }
     }
     
@@ -114,7 +124,7 @@ public class Student
     {
         System.out.println(" ------------------------------------");
         System.out.println(" App21-02: Exam Board Transcript 2021");
-        System.out.println("        by student name");
+        System.out.println("        by ZARRAR AFZAL");
         System.out.println(" ------------------------------------");
         
         printCourse();
