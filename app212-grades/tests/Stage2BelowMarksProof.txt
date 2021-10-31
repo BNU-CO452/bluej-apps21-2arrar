@@ -1,0 +1,33 @@
+cyberSecurity.addModule(co452);
+zarrarCo452Mark.setMark(10);
+zarrar.addMark(zarrarCo452Mark);
+zarrar.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by ZARRAR AFZAL
+ ------------------------------------
+ Student ID: 22134843, Zarrar
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: Programming Concepts	  15 credits
+ CO450: Computer Architectures	  15 credits
+ CO456: Web Development	  15 credits
+ CO454: Digital Tech	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	75	A
+
+ CO450: Computer Architectures	  15	65	B
+
+ CO456: Web Development	  15	55	C
+
+ CO454: Digital Tech	  15	45	D
+
+ CO452: Programming Concepts	  0	10	F
+
+
+ Final Course Grade = B
