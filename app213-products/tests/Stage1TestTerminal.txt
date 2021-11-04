@@ -1,0 +1,23 @@
+Product codMW2 = new Product(103, "CODMW2");
+codMW2.print();
+ ID 103: CODMW2 stock level: 0
+codMW2.decreaseQuantity(1);
+codMW2.print();
+ ID 103: CODMW2 stock level: 0
+codMW2.increaseQuantity(5);
+codMW2.print();
+ ID 103: CODMW2 stock level: 5
+codMW2.decreaseQuantity(3);
+codMW2.print();
+ ID 103: CODMW2 stock level: 2
+Product gtaSanAndreas = new Product(101, "GTA SAN ANDREAS");
+StockList stockLis1 = new StockList();
+stockLis1.add(codMW2);
+stockLis1.add(gtaSanAndreas);
+stockLis1.print();
+
+ TORRENTS R US 
+ =+=+=+=+=+=+=+=+=+=+=
+
+ ID 103: CODMW2 stock level: 2
+ ID 101: GTA SAN ANDREAS stock level: 0
