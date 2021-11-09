@@ -1,0 +1,37 @@
+Course cyberSecurity = new Course();
+Module co453 = new Module("CO453", "Application Programming");
+ModuleMark zarrarCo453Mark = new ModuleMark(co453);
+zarrarCo453Mark.setMark(200);
+zarrar.enrol(cyberSecurity);
+cyberSecurity.addModule(co453);
+zarrar.addMark(zarrarCo453Mark);
+zarrar.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by ZARRAR AFZAL
+ ------------------------------------
+ Student ID: 22134843, Zarrar
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: Programming Concepts	  15 credits
+ CO450: Computer Architectures	  15 credits
+ CO456: Web Development	  15 credits
+ CO454: Digital Tech	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	75	A
+
+ CO450: Computer Architectures	  15	65	B
+
+ CO456: Web Development	  15	55	C
+
+ CO454: Digital Tech	  15	45	D
+
+ CO453: Application Programming	  15	200	NS
+
+
+ No Final Course Grade Yet!

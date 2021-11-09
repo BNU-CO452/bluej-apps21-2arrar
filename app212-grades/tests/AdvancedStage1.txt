@@ -1,0 +1,16 @@
+Student zarrar = new Student();
+zarrar.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by ZARRAR AFZAL
+ ------------------------------------
+ Student ID: 22134843, Zarrar
+    Exception occurred.
+Student joe = new Student("Joe Spinner Jackson", 2214839);
+Student mark = new Student("Mark Markooly", 2238291);
+Student benjamin = new Student("Benjamin Humphreys", 2294831);
+Course cyberSecurity = new Course();
+zarrar.enrol(cyberSecurity);
+joe.enrol(cyberSecurity);
+mark.enrol(cyberSecurity);
+benjamin.enrol(cyberSecurity);
