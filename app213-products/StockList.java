@@ -30,6 +30,22 @@ public class StockList
     }
     
     /**
+     * Remove a product from the list the list.
+     * @param item The product item to be added.
+     */
+    public void remove(int productID)
+    {
+        Product product = findProduct(productID);
+        if(product !=null)
+        {
+            System.out.println(product+ "has been removed successfully");
+            stock.remove(product);
+        }
+        else System.out.println("That ID doesnt exist");
+        
+    }
+    
+    /**
      * A method to buy a single quantity of the product
      */
     public void buyProduct(int productID)
@@ -123,7 +139,7 @@ public class StockList
         else
         {
             // printout message
-            System.out.println(product.getName() + " is not available here");
+            System.out.println(" is not available here");
         }
     }  
 
