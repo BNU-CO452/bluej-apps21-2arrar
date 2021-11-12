@@ -153,7 +153,12 @@ public class StockList
      */
     public int numberInStock(int productID)
     {
-        return 0;
+        Product product = findProduct(productID);
+        if(product != null)
+        {
+            return product.getQuantity();
+        }
+        else return 0;
     }
 
     /**
@@ -190,5 +195,38 @@ public class StockList
         System.out.println(" TORRENTS R US ");
         System.out.println(" =+=+=+=+=+=+=+=+=+=+=");
         System.out.println();
+    }
+    
+    /**
+     * To look for item starting with prefixes
+     * -copied code above, but add 'startsWith' addition
+     * if no work remove.
+     */
+    public void lookupProducts(String phrase)
+    {
+        for(Product product : stock)
+        {
+            if(product.getName().startsWith(phrase) == true)
+            {
+                System.out.println(product);
+            }
+        }
+    }
+    
+    /**
+     * To list products which stock level are below set number
+     * -copied code above, remove it no work
+     */
+    public void stockBelow15(String phrase)
+    {
+        for(Product product : stock)
+        {
+            if(product.getQuantity() < 15 )
+            {
+                System.out.println(" Products Below 15 ");
+                System.out.println(" ---------------- ");
+                System.out.println(product);
+            }
+        }
     }
 }

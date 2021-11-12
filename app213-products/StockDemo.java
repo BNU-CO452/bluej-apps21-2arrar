@@ -25,8 +25,9 @@ public class StockDemo
         stock.add(new Product(101, "GTA San Andreas"));
         stock.add(new Product(102, "Insurgency(2014)"));
         stock.add(new Product(103, "COD MW2"));
-        stock.add(new Product(104, "iw4x"));
-        stock.add(new Product(105, "CS 1.6"));
+        stock.add(new Product(104, "COD 4"));
+        stock.add(new Product(105, "COD iw4x"));
+        stock.add(new Product(106, "CS 1.6"));
         stock.add(new Product(107, "Minecraft"));
         stock.add(new Product(108, "SQUAD"));
         stock.add(new Product(109, "World War Z"));
@@ -55,29 +56,29 @@ public class StockDemo
     
     private void buyProducts()
     {
-        stock.buyProduct(101, 9);
-        stock.buyProduct(102, 4);
-        stock.buyProduct(103, 5);
-        stock.buyProduct(104, 1);
-        stock.buyProduct(105, 4);
-        stock.buyProduct(106, 9);
-        stock.buyProduct(107, 3);
-        stock.buyProduct(108, 6);
-        stock.buyProduct(109, 2);
+        stock.buyProduct(101, 92);
+        stock.buyProduct(102, 43);
+        stock.buyProduct(103, 53);
+        stock.buyProduct(104, 15);
+        stock.buyProduct(105, 46);
+        stock.buyProduct(106, 98);
+        stock.buyProduct(107, 31);
+        stock.buyProduct(108, 63);
+        stock.buyProduct(109, 24);
         stock.buyProduct(110, 5);
     }
     
     private void sellProducts()
     {
-        stock.sellProduct(101, 8);
-        stock.sellProduct(102, 2);
-        stock.sellProduct(103, 2);
-        stock.sellProduct(104, 1);
-        stock.sellProduct(105, 2);
-        stock.sellProduct(106, 5);
-        stock.sellProduct(107, 3);
-        stock.sellProduct(108, 3);
-        stock.sellProduct(109, 2);
+        stock.sellProduct(101, 80);
+        stock.sellProduct(102, 24);
+        stock.sellProduct(103, 23);
+        stock.sellProduct(104, 14);
+        stock.sellProduct(105, 23);
+        stock.sellProduct(106, 55);
+        stock.sellProduct(107, 30);
+        stock.sellProduct(108, 33);
+        stock.sellProduct(109, 21);
         stock.sellProduct(110, 5);
     }    
 }
