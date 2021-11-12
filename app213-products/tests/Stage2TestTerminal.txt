@@ -1,0 +1,90 @@
+ StockList stockLis1 = new StockList();
+StockDemo stockDem1 = new StockDemo(stockLis1);
+stockDem1.runDemo();
+
+ TORRENTS R US 
+ =+=+=+=+=+=+=+=+=+=+=
+
+ ID 101: GTA San Andreas stock level: 0
+ ID 102: Insurgency(2014) stock level: 0
+ ID 103: COD MW2 stock level: 0
+ ID 104: COD 4 stock level: 0
+ ID 105: COD iw4x stock level: 0
+ ID 106: CS 1.6 stock level: 0
+ ID 107: Minecraft stock level: 0
+ ID 108: SQUAD stock level: 0
+ ID 109: World War Z stock level: 0
+ ID 110: Rise of Nations stock level: 0
+
+You have purchasedd 92 of GTA San Andreas
+You have purchasedd 43 of Insurgency(2014)
+You have purchasedd 53 of COD MW2
+You have purchasedd 15 of COD 4
+You have purchasedd 46 of COD iw4x
+You have purchasedd 98 of CS 1.6
+You have purchasedd 31 of Minecraft
+You have purchasedd 63 of SQUAD
+You have purchasedd 24 of World War Z
+You have purchasedd 5 of Rise of Nations
+
+ TORRENTS R US 
+ =+=+=+=+=+=+=+=+=+=+=
+
+ ID 101: GTA San Andreas stock level: 92
+ ID 102: Insurgency(2014) stock level: 43
+ ID 103: COD MW2 stock level: 53
+ ID 104: COD 4 stock level: 15
+ ID 105: COD iw4x stock level: 46
+ ID 106: CS 1.6 stock level: 98
+ ID 107: Minecraft stock level: 31
+ ID 108: SQUAD stock level: 63
+ ID 109: World War Z stock level: 24
+ ID 110: Rise of Nations stock level: 5
+
+You have successfully sold 80 the GTA San Andreas
+You have successfully sold 24 the Insurgency(2014)
+You have successfully sold 23 the COD MW2
+You have successfully sold 14 the COD 4
+You have successfully sold 23 the COD iw4x
+You have successfully sold 55 the CS 1.6
+You have successfully sold 30 the Minecraft
+You have successfully sold 33 the SQUAD
+You have successfully sold 21 the World War Z
+You have successfully sold 5 the Rise of Nations
+
+ TORRENTS R US 
+ =+=+=+=+=+=+=+=+=+=+=
+
+ ID 101: GTA San Andreas stock level: 12
+ ID 102: Insurgency(2014) stock level: 19
+ ID 103: COD MW2 stock level: 30
+ ID 104: COD 4 stock level: 1
+ ID 105: COD iw4x stock level: 23
+ ID 106: CS 1.6 stock level: 43
+ ID 107: Minecraft stock level: 1
+ ID 108: SQUAD stock level: 30
+ ID 109: World War Z stock level: 3
+ ID 110: Rise of Nations stock level: 0
+
+stockLis1.remove(106);
+ ID 106: CS 1.6 stock level: 43has been removed successfully
+stockLis1.lookupProducts("COD");
+ ID 103: COD MW2 stock level: 30
+ ID 104: COD 4 stock level: 1
+ ID 105: COD iw4x stock level: 23
+stockLis1.stockBelow15("15");
+ Products Below 15 
+ ---------------- 
+ ID 101: GTA San Andreas stock level: 12
+ Products Below 15 
+ ---------------- 
+ ID 104: COD 4 stock level: 1
+ Products Below 15 
+ ---------------- 
+ ID 107: Minecraft stock level: 1
+ Products Below 15 
+ ---------------- 
+ ID 109: World War Z stock level: 3
+ Products Below 15 
+ ---------------- 
+ ID 110: Rise of Nations stock level: 0
