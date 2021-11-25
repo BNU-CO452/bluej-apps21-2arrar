@@ -1,0 +1,138 @@
+ Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ TORRENTS R US 
+ =+=+=+=+=+=+=+=+=+=+=
+
+ ID 101: GTA San Andreas stock level: 0
+ ID 102: Insurgency(2014) stock level: 0
+ ID 103: COD MW2 stock level: 0
+ ID 104: COD 4 stock level: 0
+ ID 105: COD iw4x stock level: 0
+ ID 106: CS 1.6 stock level: 0
+ ID 107: Minecraft stock level: 0
+ ID 108: SQUAD stock level: 0
+ ID 109: World War Z stock level: 0
+ ID 110: Rise of Nations stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > quit
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+enter ID number
+111
+please enter the name of new product
+Your input is blank!
+
+please enter the name of new productIssaKwazyOne
+productIssaKwazyOnewith ID111has been added successfully
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+enter ID number
+101
+please enter the name of new product
+Your input is blank!
+
+please enter the name of new productAssetto Corsa
+productAssetto Corsawith ID101has been added successfully
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+enter ID you'd wish to remove
+104
+ ID 104: COD 4 stock level: 0has been removed successfully
+product with IDhas been removed
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > remove
+enter ID you'd wish to remove
+207
+That ID doesnt exist
+product with IDhas been removed

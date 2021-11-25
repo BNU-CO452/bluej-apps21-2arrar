@@ -217,14 +217,26 @@ public class StockList
      * To list products which stock level are below set number
      * -copied code above, remove it no work
      */
-    public void stockBelow15(String phrase)
+    public void stockBelow(int amount)
     {
         for(Product product : stock)
         {
-            if(product.getQuantity() < 15 )
+            if(product.getQuantity() <= amount )
             {
-                System.out.println(" Products Below 15 ");
+                System.out.println(" Products Below ");
                 System.out.println(" ---------------- ");
+                System.out.println(product);
+            }
+        }
+    }
+    public void reStockup(int amount, int quantity)
+    {
+        for(Product product : stock)
+        {
+            if(product.getQuantity() <= amount )
+            {
+                int id = product.getID();
+                buyProduct(id,quantity);
                 System.out.println(product);
             }
         }

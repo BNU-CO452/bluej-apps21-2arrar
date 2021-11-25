@@ -1,0 +1,187 @@
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > buy
+enter ID you wish to buy
+103
+Please enter amount you wish to buy (1-10)
+4
+You have purchasedd 4 of COD MW2
+Successfully Purchased103 4,thank you
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+enter ID you wish to sell
+103
+Please enter amount you wish to sell (1-10)
+4
+You have successfully sold 4 the COD MW2
+Successfully Sold103 4,thank you
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > search
+Pleas enter name of Product you wish to search forCOD
+ ID 103: COD MW2 stock level: 0
+ ID 105: COD iw4x stock level: 0
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > stockbelow
+Please enter quantity you'd like to list (limit 1-5)
+1
+ Products Below 
+ ---------------- 
+ ID 101: GTA San Andreas stock level: 0
+ Products Below 
+ ---------------- 
+ ID 102: Insurgency(2014) stock level: 0
+ Products Below 
+ ---------------- 
+ ID 103: COD MW2 stock level: 0
+ Products Below 
+ ---------------- 
+ ID 105: COD iw4x stock level: 0
+ Products Below 
+ ---------------- 
+ ID 106: CS 1.6 stock level: 0
+ Products Below 
+ ---------------- 
+ ID 107: Minecraft stock level: 0
+ Products Below 
+ ---------------- 
+ ID 108: SQUAD stock level: 0
+ Products Below 
+ ---------------- 
+ ID 109: World War Z stock level: 0
+ Products Below 
+ ---------------- 
+ ID 110: Rise of Nations stock level: 0
+ Products Below 
+ ---------------- 
+ ID 111: IssaKwazyOne stock level: 0
+ Products Below 
+ ---------------- 
+ ID 101: Assetto Corsa stock level: 0
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > restockup
+Please enter threshold you'd like to restock
+5
+please enter restock amount (1-10)
+1
+You have purchasedd 1 of GTA San Andreas
+ ID 101: GTA San Andreas stock level: 1
+You have purchasedd 1 of Insurgency(2014)
+ ID 102: Insurgency(2014) stock level: 1
+You have purchasedd 1 of COD MW2
+ ID 103: COD MW2 stock level: 1
+You have purchasedd 1 of COD iw4x
+ ID 105: COD iw4x stock level: 1
+You have purchasedd 1 of CS 1.6
+ ID 106: CS 1.6 stock level: 1
+You have purchasedd 1 of Minecraft
+ ID 107: Minecraft stock level: 1
+You have purchasedd 1 of SQUAD
+ ID 108: SQUAD stock level: 1
+You have purchasedd 1 of World War Z
+ ID 109: World War Z stock level: 1
+You have purchasedd 1 of Rise of Nations
+ ID 110: Rise of Nations stock level: 1
+You have purchasedd 1 of IssaKwazyOne
+ ID 111: IssaKwazyOne stock level: 1
+You have purchasedd 1 of GTA San Andreas
+ ID 101: Assetto Corsa stock level: 0
+********************************
+  App21-04: Stock Application 
+      by ZARRAR AFZAL
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    StockBelow: Lists stock below set amount
+    Restockup:  Re-stock up a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > 
