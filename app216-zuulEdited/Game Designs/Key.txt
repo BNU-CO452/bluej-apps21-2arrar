@@ -1,0 +1,12 @@
+Game = FallenAngel
+
+
+Locations -
+	Outside=Crash
+	Theatre=Lake
+	Pub=Market
+	Office=Camp
+	Lab=Outpost
+	Ruins
+	City
+	Road
