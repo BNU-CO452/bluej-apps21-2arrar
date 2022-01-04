@@ -5,6 +5,13 @@ public class GameLogic {
     static Scanner scanner = new Scanner(System.in);
 
     static Player player;
+
+    public static boolean isRunning;
+    
+    //Story Elements
+    public static int place = 0, act;
+    public static String[] places = {"Crash site", "Market", "Lake", "Outpost", "Camp Site", "Ruins", "Ambushed City", "Endless Road"};
+
     // method to get input 
     public static int readInt(String prompt, int userChoices){
         int input;
@@ -55,34 +62,72 @@ public class GameLogic {
         String name;
         clearConsole();
         printSeperator(30);
-        printSeperator(40);
+        printSeperator(30);
         System.out.println("FaLLen AnGeL");
         System.out.println("    It was over before it even started.    ");
         System.out.println("  created by Zarrar and his beloved SENTINEL ");
         System.out.println("       if any error its zarrars fault       ");
-        printSeperator(40);
+        printSeperator(30);
         printSeperator(30);
         anythingToContinue();
-
+        
+        // this is to start the backstory
+        Story.printIntro();
+        
+        
         /*
          * this is to get the name
          */
-        
-            clearConsole();
-            printHeading("Pilot, what is your callsign?");
-            name = scanner.next();
 
-            clearConsole();
-            printHeading("Callsign " + name + ".\nDo you copy?");
-            System.out.println("(1) I copy!");
-            System.out.println("(2) Negative!");
-
-            int input = readInt("-> ", 2);
-            if(input == 1)
-                nameSet = true;
-        
+        clearConsole();
+        printHeading("Pilot, what is your callsign?");
+        name = scanner.next();
 
         // create player object
         player = new Player(name);
+        // this to print scenario -- scenario not location
+        Story.printScenario();
+
+        isRunning = true;
+
+        gameLoop();
+
+    }
+    
+    public static void continueJourney(){
+        
+        
+    }
+    
+    public static void characterInfo(){
+        clearConsole();
+        printHeading(" CHARACTER INFORMATION ");
+        System.out.println(player.name + "\tHP: " + player.hp + "/" + player.maxHp);
+        printSeperator(20);
+        System.out.println("XP: " + player.xp);
+        
+        anythingToContinue();
+    }
+    
+    public static void printMenu(){
+        clearConsole();
+        printHeading(places[place]);
+        System.out.println("Choose an action:");
+        printSeperator(20); // toggle, in eclipse its fine, idk bout bluej
+        System.out.println("(1) Continue on your journey");
+        System.out.println("(2) Character information");
+        System.out.println("(3) Exit game");
+    }
+    
+    public static void gameLoop(){
+        while(isRunning){
+            printMenu();
+            int input = readInt("-> ", 3);
+            if(input == 1)
+                continueJourney();
+            else if(input == 2)
+                characterInfo();
+            else isRunning = false;
+        }
     }
 }
