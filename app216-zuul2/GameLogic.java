@@ -8,8 +8,14 @@ public class GameLogic {
 
     public static boolean isRunning;
     
+    //Random Encounters, sniper fire, enemies etc.
+    public static String[] encounters = {"Battle", "Battle", "Battle", "Rest", "Rest"};
+    
+    //ENemy names
+    public static String[] enemies = {"Rebel", "Insurgent", "Commander", "Warlord"};
+    
     //Story Elements
-    public static int place = 0, act;
+    public static int place = 0, act = 1;
     public static String[] places = {"Crash site", "Market", "Lake", "Outpost", "Camp Site", "Ruins", "Ambushed City", "Endless Road"};
 
     // method to get input 
@@ -93,8 +99,37 @@ public class GameLogic {
         gameLoop();
 
     }
+    // CHANGE TO HEALTH, THIS IS WRONG
+    public static void checkLevel(){
+        if(player.xp >= 10 && act ==1){
+            
+        }
+        else if(player.xp >= 50 && act == 2){
+        }
+        else if (player.xp >=100 && act == 3){
+        }
+        
+    }
     
+    // Random encounter code, if no work remove and delete
+    public static void randomEncounter(){
+        int encounter = (int) (Math.random()* encounters.length);
+        
+        if(encounters[encounter].equals("Battle"))
+        {
+            //random battle thing
+        }
+        else if(encounters[encounter].equals("Rest"))
+        {
+            //rest sequence
+        }
+        
+        
+    }
     public static void continueJourney(){
+        checkLevel();
+        if(act != 1)
+            randomEncounter();
         
         
     }
