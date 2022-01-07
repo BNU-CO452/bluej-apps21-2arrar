@@ -29,12 +29,13 @@ public class Enemy extends Character{
 
     @Override
     public int attack() {
-        return 0;
+        // one again, way too complicated- change to (Math.random()*100); or something
+        return (int) (Math.random()*(playerXp/4 + 1) + xp/4 + 3);
     }
 
     @Override
     public int defend() {
         // TODO Auto-generated mthod stub
-        return 0;
+        return (int) (Math.random()*(playerXp/4 + 1) + xp/4 + 3);
     }
 }
