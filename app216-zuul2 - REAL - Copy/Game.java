@@ -25,7 +25,7 @@ public class Game
     private boolean gameOver;
     static Player player;
     
-    public Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
         
     /**
      * Create the game and initialise its internal map.
@@ -71,14 +71,14 @@ public class Game
     // CODE BEGINS HERE DELETE IF NO WORKY
      //method to clear the text window
 
-    public void clearConsole()
+    public static void clearConsole()
     {
         for(int i = 0; i < 100; i++)
             System.out.println();
     }
 
     //method to print text seperator with n lenth
-    public void printSeperator(int n )
+    public static void printSeperator(int n )
     {
         for(int i = 0; i < n; i++)
             System.out.print("-");
@@ -86,7 +86,7 @@ public class Game
     }
     
      //printing heading
-    public void printHeading(String title){
+    public static void printHeading(String title){
         printSeperator(30);
         System.out.println(title);
         printSeperator(30);

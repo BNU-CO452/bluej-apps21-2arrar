@@ -81,7 +81,10 @@ public class CommandReader
         {
             return true;  // game over
         }
-       
+        //else if(commandWord.equals(CommandWords.STATS.word))
+        //{
+            
+        //}
 
         // Return false means the game is not over
         return false;

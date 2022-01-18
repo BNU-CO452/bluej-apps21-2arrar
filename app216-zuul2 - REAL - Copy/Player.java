@@ -76,5 +76,12 @@ public class Player extends Character{
         }
         GameLogic.anythingToContinue();
     }
+    
+    public static void printStats()
+    {
+        Game.printSeperator(30);
+        System.out.println("CHARACTER INFORMATION");
+        Game.printSeperator(30);
+    }
         
 }
