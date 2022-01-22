@@ -1,0 +1,130 @@
+
+
+------------------------------
+You took the Rebel out of his misery.
+------------------------------
+You got 1 xp out of it.
+Looking around, you find - 
+AK-74
+Rations
+Map
+ You are in the local market
+A clutter of stalls and people walk, talk and watch. 
+Long cuts of cloth dance in the breeze as shopkeepers 
+ exclaim their products and prices 
+ The air is filled with foreign voices. .
+ Exits: east south north west
+ > go abcd
+
+
+
+------------------------------
+You've been spotted by an enemy, engage in combat!
+------------------------------
+
+Enter anything to proceed
+ > 
+
+
+
+
+// COMBAT SCENE INITIATES- HAS BEEN SKIPPED TO ELIMINATE REPETITIVENESS :)
+
+
+
+
+------------------------------
+You took the Insurgent out of his misery.
+------------------------------
+You got 1 xp out of it and a flare!
+Looking around, you find - 
+Rations
+There is no exit in this direction!
+ > take rations
+I can't see that here >stats
+
+
+
+
+
+
+
+------------------------------
+ CHARACTER INFORMATION 
+------------------------------
+SENTRY	HP: 5/5
+--------------------
+XP: 2
+--------------------
+Items
+--------------------
+Rations: 1
+Flare: 1
+
+Enter anything to proceed
+ >flare
+
+
+
+
+------------------------------
+You've got your hands on a signal flare
+------------------------------
+Careful, it has a lock on it rigged to an explosive,
+seems like they've tried to improvise some sort of trap
+Do you want to try unlock it now?
+(1) Yes 
+(2) No, not now.
+-> 
+
+
+
+
+
+
+------------------------------
+You launched the flare up in the sky
+------------------------------
+
+  .        . 
++  :       .
+           :       _
+       .   !   '  (_)
+          ,|.' 
+-  -- ---(-O-`--- --  -
+         ,`|'`.
+       ,   !    .
+           :       :   
+           .     --+--
+ .:        .       !
+
+Enter anything to proceed
+ > a
+
+
+
+
+
+---------------+---------------
+          ___ /^^[___              _
+        /|^+----+   |#___________//
+      ( -+ |____|    ______-----+/
+       ==_________--            / 
+         ~_|___|__
+             |            
+             |            
+            |            
+             |            
+              |            
+             *           
+
+A friendly chopper approaches above you,
+ Congratuliations, now get out of here before you
+ shot down again.
+------------------------------
+SENTRYs stats
+------------------------------
+Final XP: 2
+ enter 'quit' to complete this session 
+ > quit
+Thank you for playing.  Good bye.

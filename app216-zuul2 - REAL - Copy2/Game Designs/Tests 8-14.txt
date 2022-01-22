@@ -1,0 +1,126 @@
+
+
+------------------------------
+ CHARACTER INFORMATION 
+------------------------------
+SENTRY	HP: 5/5
+--------------------
+XP: 0
+--------------------
+Items
+--------------------
+Rations: 1
+Flare: 0
+
+Enter anything to proceed
+ > go north
+
+
+
+
+
+
+------------------------------
+You've been spotted by an enemy, engage in combat!
+------------------------------
+
+Enter anything to proceed
+ > a
+
+
+
+
+
+------------------------------
+Rebel
+HP: 5/5
+------------------------------
+------------------------------
+SENTRY
+HP: 5/ 5
+------------------------------
+What would you like to do?
+--------------------
+(1) Fight
+(2) Eat Rations
+(3) Retreat
+->1
+
+
+
+
+
+
+------------------------------
+Battle
+------------------------------
+You shot the Rebeland dealt 3damage!
+---------------
+Rebel fired back and dealt 1 to you
+
+Enter anything to proceed
+ > a
+
+
+
+
+------------------------------
+Rebel
+HP: 2/5
+------------------------------
+------------------------------
+SENTRY
+HP: 4/ 5
+------------------------------
+What would you like to do?
+--------------------
+(1) Fight
+(2) Eat Rations
+(3) Retreat
+-> 2
+
+
+
+
+
+------------------------------
+ You snacked on some rations and now have 5 health
+------------------------------
+
+
+
+
+
+------------------------------
+Rebel
+HP: 2/5
+------------------------------
+------------------------------
+SENTRY
+HP: 5/ 5
+------------------------------
+What would you like to do?
+--------------------
+(1) Fight
+(2) Eat Rations
+(3) Retreat
+-> 3
+
+
+
+
+------------------------------
+Escaping isn't always an option
+------------------------------
+You've been shot amidst your retreet and took 3damage
+
+Enter anything to proceed
+ > a
+
+
+
+
+
+
+
+
