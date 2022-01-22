@@ -10,7 +10,7 @@
 public class GoCommand extends ZuulCommand
 {
     String direction;
-    
+
     public GoCommand(Game zuul, String direction)
     {
         super(zuul);
@@ -27,17 +27,26 @@ public class GoCommand extends ZuulCommand
         }
 
         Map map = zuul.MAP;
-        
+
         // Try to leave current room.
         Location currentLocation = map.getCurrentLocation();
-        
+
         Game.randomBattle();
-        
+
         Location nextLocation = currentLocation.getExit(direction);
-        
+
         //to print items
         map.getCurrentLocation().printItems();
-        
+
+        // TO print story desc
+        if(currentLocation == null)
+        {
+            System.out.println("ummmm... type quit. you broke the game.");
+        }
+        else if(currentLocation.equals("crash"))
+        {
+            Story.printCrash();
+        }
 
         if (nextLocation == null) 
         {

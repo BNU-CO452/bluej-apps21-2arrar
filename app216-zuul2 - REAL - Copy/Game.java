@@ -124,6 +124,7 @@ public class Game
         player = new Player(name);
         // this to print scenario -- scenario not location
         Story.printScenario();
+        Story.printCrash();
         
     }
     

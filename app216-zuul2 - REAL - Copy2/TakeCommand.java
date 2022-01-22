@@ -41,11 +41,22 @@ public class TakeCommand extends ZuulCommand
         
         if(item.equals("ration"))
         {
-           
+          if(currentLocation.equals("crash"))
+          {
+              currentLocation.removeItem(map.ration);
+              player.addInventory(map.ration);
+          }
+          if(currentLocation.equals("market"))
+          {
+              currentLocation.removeItem(map.ration);
+              player.addInventory(map.ration);
+          }
             
-          currentLocation.removeItem(map.ration);
-          player.addInventory(map.ration);
             
+        }
+        else
+        {
+            System.out.print("I can't see that here.");
         }
   
     }

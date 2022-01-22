@@ -47,6 +47,7 @@ public class Story {
         System.out.println(" You must find some sort of flare to signal a rescue ");
         System.out.println(" Good luck " + Game.player.name );
         Game.anythingToContinue();
+        
     }
     
     public static void printCrash(){

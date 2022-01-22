@@ -214,6 +214,8 @@ public class Game
                 System.out.println(player.name + "s stats");
                 printSeperator(30);
                 System.out.println("Final XP: " + player.xp );
+                
+                System.out.println(" enter 'quit' to complete this session ");
 
             }
         }
@@ -227,6 +229,8 @@ public class Game
         printHeading("The clutches of death have grabbed you. You've died");
         printHeading("You gathered " + player.xp + " XP and a coffin :)");
         System.out.println("Thank you for playing");
+        System.out.println(" enter 'quit' to complete this session ");
+        
 
     }
 
@@ -250,6 +254,10 @@ public class Game
                 if(dmg < 0)
                 {
                     dmg = 0;
+                }
+                if (dmgTook < 0)
+                {
+                    dmgTook = 0;
                 }
                 // Deal damage to both players
                 player.hp -= dmgTook;
